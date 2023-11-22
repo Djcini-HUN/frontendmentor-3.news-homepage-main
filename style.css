@@ -1,6 +1,6 @@
 /* COLORS */
 :root {
-    --darkblue: #00001a;
+    --darkblue: #00003a;
     --gold: #e7ae57;
     --orange: #f15d51;
     --white: #ffffff;
@@ -134,6 +134,8 @@ p{
     width: 100%;
     margin-inline: auto;
     margin-top: 2rem;
+    border: none;
+    border-bottom:2px solid var(--darkgray);
 } 
 
 
