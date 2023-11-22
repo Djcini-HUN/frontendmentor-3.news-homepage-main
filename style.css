@@ -53,6 +53,14 @@ p{
     list-style: none;
     gap: 3rem;
 }
+.nav> ul> li{
+    border-bottom: 2px solid var(--white);
+    cursor: pointer;
+}
+.nav> ul> li:hover{
+    border-bottom: 2px solid var(--darkgray);
+    transition: 300ms;
+}
 #menu{
     display: none;
 }
@@ -109,6 +117,7 @@ p{
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.2rem;
+    cursor: pointer;
 }
 /* Right-content */
 .right-content{
@@ -192,12 +201,7 @@ footer a,footer a:visited{
     .nav{
         margin-inline: 1.5rem;
     }
-    .nav > ul{
-        display: none;
-    }
-    #menu{
-        display:block;
-    }
+    
 
     #main-content{
         flex-direction: column;
@@ -229,6 +233,12 @@ footer a,footer a:visited{
     body{
         margin-inline: 0rem;
         margin-top: 0rem;
+    }
+    .nav > ul{
+        display: none;
+    }
+    #menu{
+        display:block;
     }
     .title,.readmore{
         width: 100%;
